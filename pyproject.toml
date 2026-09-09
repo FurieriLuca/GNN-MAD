@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stable-gnn-lru-swapping"
+version = "0.1.0"
+description = "Reproducible stable GNN-LRU policy for multi-agent target swapping"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "numpy",
+  "pyyaml",
+  "matplotlib",
+  "imageio",
+  "pillow",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,61 @@
+{
+  "stages": [
+    {
+      "name": "supervised_scratch",
+      "seed": 17,
+      "updates": 1000,
+      "selected_update": 900,
+      "model_tensor_sha256": "62d3e45aafe6de1a10d46f4237612a7cdec5454337c9c935137b28e43c2f058c",
+      "training_history_sha256": "a881d13ed8382eefe694bbb2ecd81a64cf4c7b5f54d3486fc5b6e3d028827610"
+    },
+    {
+      "name": "mixed_imitation",
+      "seed": 27,
+      "updates": 600,
+      "selected_update": 500,
+      "model_tensor_sha256": "19df975c6675f52f490ba1871b94eed468e144cd5dd10c35bbe4a2914782d32f",
+      "training_history_sha256": "693720676f261f8bb9415e14df6cdad29ccbf595bc5fe737124b7ccfb706b574"
+    },
+    {
+      "name": "on_policy_refinement",
+      "seed": 47,
+      "updates": 1000,
+      "selected_update": 300,
+      "model_tensor_sha256": "282fd56b2122488ef2f3bb0a0d1e219b3e8256350388d69e4dc7b484ac48bedb",
+      "training_history_sha256": "d8385dd623c221204f54acebf8e693c2e35d2d2fa82609c67e90ed52e01ea1b5"
+    },
+    {
+      "name": "dense_replay",
+      "seed": 61,
+      "updates": 400,
+      "selected_update": 399,
+      "model_tensor_sha256": "942fde924c9e81d452acf1e8f60b9634375afc08a71818585b2add99c6a63c48",
+      "training_history_sha256": "3057ffb46161b993ca3bdbbb7791657bba375bc1fe0b8860ad2dc40d21a8ac38"
+    }
+  ],
+  "total_updates": 3000,
+  "final_model_tensor_sha256": "942fde924c9e81d452acf1e8f60b9634375afc08a71818585b2add99c6a63c48",
+  "verification": {
+    "stage_weights_identical": true,
+    "training_histories_identical": true,
+    "validation_metrics_identical": true,
+    "independent_gif_renders_identical": true
+  },
+  "environment": {
+    "numpy": "1.26.4",
+    "platform": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.10.18 (main, Jun  5 2025, 08:13:51) [Clang 14.0.6 ]",
+    "torch": "2.2.2"
+  },
+  "architecture_hashes": {
+    "src/swapping/policy.py": "fae929a01c44f0688154f5eb6cf5da47ab3133802328ac7d70bc4dfd98110c6b",
+    "src/swapping/magnitude.py": "4b4c1950eabf1465ce9a05286cad264bbf0f84b6b08c684456767113cc340463",
+    "src/swapping/graph.py": "eed20cd6500bad132c99044c3e909479e4dffba647f1bc649c73e96a0f9ec436",
+    "src/swapping/dynamics.py": "e8b9bdbdd876616b93203f4010bb55840265ee678b06abaf91a54e2e52978793",
+    "src/swapping/rollout.py": "7ddbeecc7f55cad00d1211221a31418caa522e92993be92cc99f30aba93784f9",
+    "src/swapping/teacher.py": "349c249f04551ea926a64f8a0f3b59e74b1a7d503d2188f78fff7b396a2830db",
+    "src/swapping/scenarios.py": "a90dec6b220d426a6238797c85cb239e321dae79f21765878b4f38626608ab51"
+  },
+  "recipe_sha256": "5bca249bf39e239f23e1c64a7a887f8b6727f180058041c3cd6d2538b52993c1",
+  "scope": "Exact reproduction verified in the recorded CPU environment. Cross-platform bitwise identity is not claimed."
+}

@@ -1,0 +1,14 @@
+{
+  "description": "Fixed four-stage training recipe; no pretrained checkpoint is a training input.",
+  "config": "configs/train_random.yaml",
+  "stages": [
+    {"name": "supervised_scratch", "method": "pretrain", "seed": 17, "updates": 1000, "learning_rate": 0.001, "source": "teacher"},
+    {"name": "mixed_imitation", "method": "pretrain", "seed": 27, "updates": 600, "learning_rate": 0.0005, "source": "mixed"},
+    {"name": "on_policy_refinement", "method": "pretrain", "seed": 47, "updates": 1000, "learning_rate": 0.0003, "source": "policy"},
+    {"name": "dense_replay", "method": "refine", "seed": 61, "updates": 400, "learning_rate": 0.0001, "variant": "replay"}
+  ],
+  "stage_transition": "Use the preceding stage's best validation checkpoint; initialize a new optimizer at each stage.",
+  "output_checkpoint": "The last stage's best validation checkpoint; no manual selection.",
+  "evaluation": "256 random and 160 structured validation scenes; the reserved final-test block is not opened.",
+  "gallery": "First fixed gallery seed in each of eight groups, with failures retained."
+}

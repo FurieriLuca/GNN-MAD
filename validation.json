@@ -1,0 +1,5506 @@
+{
+  "checkpoint": "artifacts/model.pt",
+  "checkpoint_sha256": "eb4f4b516e4b6cac67fadba14589e50b682da4c85b11876e0b4d4cffda386032",
+  "comparison": {
+    "random_success": 0.6953125,
+    "structured_success": 0.56875,
+    "validation_score": 59.26557174945731,
+    "worst_random_group": 0.4375
+  },
+  "global_update": 399,
+  "protocol": {
+    "collision_distance": 0.55,
+    "final_test_evaluated": false,
+    "horizon": 260,
+    "jitter": 0,
+    "target_tolerance": 0.3
+  },
+  "random_validation": {
+    "cases": [
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05302930995821953,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7063729763031006,
+        "seed": 3000000000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013268413953483105,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9053448438644409,
+        "seed": 3000000001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03453359380364418,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9132630228996277,
+        "seed": 3000000002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06004858389496803,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7635242938995361,
+        "seed": 3000000003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.020383326336741447,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8026311993598938,
+        "seed": 3000000004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.024511605501174927,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8911142349243164,
+        "seed": 3000000005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.030756140127778053,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9442880153656006,
+        "seed": 3000000006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06564321368932724,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7034188508987427,
+        "seed": 3000000007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05161040648818016,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.0272016525268555,
+        "seed": 3000000008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.010506056249141693,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9708415269851685,
+        "seed": 3000000009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.026471927762031555,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5951989889144897,
+        "seed": 3000000010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.004510512109845877,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8755887150764465,
+        "seed": 3000000011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05762745812535286,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.891649067401886,
+        "seed": 3000000012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.027202865108847618,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.1217446327209473,
+        "seed": 3000000013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.014053606428205967,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8155624270439148,
+        "seed": 3000000014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.040080081671476364,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.03874933719635,
+        "seed": 3000000015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.023093506693840027,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.0167124271392822,
+        "seed": 3000000016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.031038789078593254,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.849202573299408,
+        "seed": 3000000017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.019495969638228416,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.0670610666275024,
+        "seed": 3000000018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06291142851114273,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8042241334915161,
+        "seed": 3000000019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06883431226015091,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.32589080929756165,
+        "seed": 3000000020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.052211057394742966,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.0227973461151123,
+        "seed": 3000000021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.052644964307546616,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5863400101661682,
+        "seed": 3000000022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03638062998652458,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.1003443002700806,
+        "seed": 3000000023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05234995484352112,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7473958134651184,
+        "seed": 3000000024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.042809516191482544,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8460403680801392,
+        "seed": 3000000025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.059059400111436844,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.4289381504058838,
+        "seed": 3000000026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03839245066046715,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7813259363174438,
+        "seed": 3000000027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08763942122459412,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.49072760343551636,
+        "seed": 3000000028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05690459907054901,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.4066387414932251,
+        "seed": 3000000029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.021330123767256737,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9982985854148865,
+        "seed": 3000000030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.008773733861744404,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8486126065254211,
+        "seed": 3000000031
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05609425529837608,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9315028786659241,
+        "seed": 3000010000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0432794988155365,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.1383725106716156,
+        "seed": 3000010001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.017287755385041237,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9266344904899597,
+        "seed": 3000010002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.041673336178064346,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9924851059913635,
+        "seed": 3000010003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0331905260682106,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.0115017890930176,
+        "seed": 3000010004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.02488396130502224,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.2488365173339844,
+        "seed": 3000010005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05665390193462372,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9801565408706665,
+        "seed": 3000010006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04745851084589958,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9263414144515991,
+        "seed": 3000010007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.034310948103666306,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.0440832376480103,
+        "seed": 3000010008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.046086717396974564,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.084742784500122,
+        "seed": 3000010009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05010464787483215,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9560535550117493,
+        "seed": 3000010010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04917522892355919,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.907198965549469,
+        "seed": 3000010011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.058859068900346756,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9962402582168579,
+        "seed": 3000010012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04056140407919884,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9560315608978271,
+        "seed": 3000010013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.044442057609558105,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9359829425811768,
+        "seed": 3000010014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.043318022042512894,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6279307007789612,
+        "seed": 3000010015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0740637332201004,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9599331021308899,
+        "seed": 3000010016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03273753821849823,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.0421812534332275,
+        "seed": 3000010017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08653508871793747,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.17644262313842773,
+        "seed": 3000010018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06791385263204575,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9892480969429016,
+        "seed": 3000010019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04076441749930382,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.096479058265686,
+        "seed": 3000010020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.00838176254183054,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9893714189529419,
+        "seed": 3000010021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.057429347187280655,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8779705762863159,
+        "seed": 3000010022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03573856130242348,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7996567487716675,
+        "seed": 3000010023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.024709919467568398,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.0555893182754517,
+        "seed": 3000010024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05696205422282219,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.101771593093872,
+        "seed": 3000010025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05260682478547096,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8682398200035095,
+        "seed": 3000010026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05796616151928902,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8936055302619934,
+        "seed": 3000010027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0382218062877655,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9540789723396301,
+        "seed": 3000010028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06649458408355713,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.21943041682243347,
+        "seed": 3000010029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05459358170628548,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7665596008300781,
+        "seed": 3000010030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05643600597977638,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.051581859588623,
+        "seed": 3000010031
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05100496858358383,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7304005026817322,
+        "seed": 3000020000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05785606428980827,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7707897424697876,
+        "seed": 3000020001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06655032187700272,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5978519916534424,
+        "seed": 3000020002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.032799433916807175,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7394154071807861,
+        "seed": 3000020003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05105306953191757,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6382479071617126,
+        "seed": 3000020004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07356679439544678,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.3614799678325653,
+        "seed": 3000020005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05898508056998253,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8317511081695557,
+        "seed": 3000020006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04150129109621048,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7241352796554565,
+        "seed": 3000020007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06091947853565216,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7722359299659729,
+        "seed": 3000020008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04199434071779251,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8302479982376099,
+        "seed": 3000020009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04858690872788429,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.380297988653183,
+        "seed": 3000020010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.044722892343997955,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7682113647460938,
+        "seed": 3000020011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.028929322957992554,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7140154838562012,
+        "seed": 3000020012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.02382550947368145,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9193644523620605,
+        "seed": 3000020013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05843507871031761,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9054868221282959,
+        "seed": 3000020014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04481997713446617,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.47027599811553955,
+        "seed": 3000020015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04301637038588524,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8912372589111328,
+        "seed": 3000020016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07930836081504822,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8761296272277832,
+        "seed": 3000020017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.028837502002716064,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 1.1115212440490723,
+        "seed": 3000020018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04166596010327339,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7001000046730042,
+        "seed": 3000020019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04053044691681862,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8445706963539124,
+        "seed": 3000020020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0371348112821579,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7604283094406128,
+        "seed": 3000020021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06341373920440674,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.535254955291748,
+        "seed": 3000020022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.030070558190345764,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9095727801322937,
+        "seed": 3000020023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03487426042556763,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7184774279594421,
+        "seed": 3000020024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.027262253686785698,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7634797692298889,
+        "seed": 3000020025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.053018469363451004,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8143949508666992,
+        "seed": 3000020026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.050321314483881,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.949685275554657,
+        "seed": 3000020027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0567186176776886,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5624749064445496,
+        "seed": 3000020028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.040123362094163895,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.881547212600708,
+        "seed": 3000020029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03973773866891861,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8072173595428467,
+        "seed": 3000020030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03471483290195465,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.9137517213821411,
+        "seed": 3000020031
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07401839643716812,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.13133856654167175,
+        "seed": 3000030000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05979270860552788,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8962712287902832,
+        "seed": 3000030001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.02858682908117771,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9342857599258423,
+        "seed": 3000030002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06955042481422424,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.442852258682251,
+        "seed": 3000030003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05032360181212425,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8492091298103333,
+        "seed": 3000030004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05548898130655289,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8060321807861328,
+        "seed": 3000030005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0720459371805191,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9593045115470886,
+        "seed": 3000030006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05907106399536133,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7874576449394226,
+        "seed": 3000030007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.030462516471743584,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.064621090888977,
+        "seed": 3000030008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03884390369057655,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.45743027329444885,
+        "seed": 3000030009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.059524230659008026,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.0199120044708252,
+        "seed": 3000030010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.024402476847171783,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9494800567626953,
+        "seed": 3000030011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06266584247350693,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8259690999984741,
+        "seed": 3000030012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.046277038753032684,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 1.0749889612197876,
+        "seed": 3000030013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07357514649629593,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.5969716906547546,
+        "seed": 3000030014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.09354044497013092,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.32102760672569275,
+        "seed": 3000030015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0648181289434433,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.5169830322265625,
+        "seed": 3000030016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05111570656299591,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.1777123063802719,
+        "seed": 3000030017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04301870986819267,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8497387170791626,
+        "seed": 3000030018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.043302349746227264,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6577408909797668,
+        "seed": 3000030019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.060695093125104904,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.08143675327301025,
+        "seed": 3000030020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.060579389333724976,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6755304336547852,
+        "seed": 3000030021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06679629534482956,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8035775423049927,
+        "seed": 3000030022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04650237411260605,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9425965547561646,
+        "seed": 3000030023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06425054371356964,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9215993881225586,
+        "seed": 3000030024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04584529995918274,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9029040336608887,
+        "seed": 3000030025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06022939458489418,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9848252534866333,
+        "seed": 3000030026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.043341297656297684,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9129883646965027,
+        "seed": 3000030027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05328432470560074,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8275942206382751,
+        "seed": 3000030028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.037528738379478455,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9486837983131409,
+        "seed": 3000030029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04918013513088226,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8779422044754028,
+        "seed": 3000030030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.051416050642728806,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.40120193362236023,
+        "seed": 3000030031
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05293785780668259,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7001001834869385,
+        "seed": 3000040000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07443013042211533,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7188416123390198,
+        "seed": 3000040001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05311702564358711,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.20242398977279663,
+        "seed": 3000040002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0413590669631958,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.32855239510536194,
+        "seed": 3000040003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07498102635145187,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7177544832229614,
+        "seed": 3000040004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08491389453411102,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.47191911935806274,
+        "seed": 3000040005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05162971094250679,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.8452166318893433,
+        "seed": 3000040006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06859540194272995,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.02473021298646927,
+        "seed": 3000040007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04633305221796036,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7001000046730042,
+        "seed": 3000040008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03301829844713211,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6207305788993835,
+        "seed": 3000040009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06519431620836258,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.02422325499355793,
+        "seed": 3000040010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06651965528726578,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7310287952423096,
+        "seed": 3000040011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05079792067408562,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5850978493690491,
+        "seed": 3000040012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.037482958287000656,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.1703433096408844,
+        "seed": 3000040013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04690159857273102,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7836249470710754,
+        "seed": 3000040014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0638342946767807,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.36957672238349915,
+        "seed": 3000040015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0461554229259491,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7851890325546265,
+        "seed": 3000040016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05811892822384834,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6988621354103088,
+        "seed": 3000040017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0639067143201828,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6968145966529846,
+        "seed": 3000040018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.052845459431409836,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7001000642776489,
+        "seed": 3000040019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05385242775082588,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7001000642776489,
+        "seed": 3000040020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05500331521034241,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7634218335151672,
+        "seed": 3000040021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08332845568656921,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.1602739840745926,
+        "seed": 3000040022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05808289721608162,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.705620527267456,
+        "seed": 3000040023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05283496901392937,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7614350914955139,
+        "seed": 3000040024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07707437127828598,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.32383477687835693,
+        "seed": 3000040025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03627561777830124,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.5206161141395569,
+        "seed": 3000040026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.021911950781941414,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5788615942001343,
+        "seed": 3000040027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.038493745028972626,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.4908076226711273,
+        "seed": 3000040028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.082308828830719,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.4152463972568512,
+        "seed": 3000040029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06292201578617096,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6118249893188477,
+        "seed": 3000040030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.030008280649781227,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6489347815513611,
+        "seed": 3000040031
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06986375153064728,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.06895918399095535,
+        "seed": 3000050000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0719037652015686,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8937838077545166,
+        "seed": 3000050001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07534445077180862,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6129180192947388,
+        "seed": 3000050002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.035274386405944824,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8486809134483337,
+        "seed": 3000050003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06344662606716156,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6570472717285156,
+        "seed": 3000050004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05564221739768982,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6015452742576599,
+        "seed": 3000050005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07322943955659866,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.33900728821754456,
+        "seed": 3000050006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.041693393141031265,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8699067831039429,
+        "seed": 3000050007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07388745248317719,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.10440081357955933,
+        "seed": 3000050008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.053114645183086395,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.34704309701919556,
+        "seed": 3000050009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0655355304479599,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.904233455657959,
+        "seed": 3000050010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05339870974421501,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.3514227867126465,
+        "seed": 3000050011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.058079350739717484,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7050722241401672,
+        "seed": 3000050012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06732248514890671,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.9198226928710938,
+        "seed": 3000050013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.059154145419597626,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8935179114341736,
+        "seed": 3000050014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.02986367605626583,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.40424808859825134,
+        "seed": 3000050015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.046398431062698364,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.39146557450294495,
+        "seed": 3000050016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.026923492550849915,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8182150721549988,
+        "seed": 3000050017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07892472296953201,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.5184786319732666,
+        "seed": 3000050018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06251025944948196,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.4851590096950531,
+        "seed": 3000050019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07832830399274826,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.021306412294507027,
+        "seed": 3000050020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.056449513882398605,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.5318770408630371,
+        "seed": 3000050021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03861643746495247,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8124854564666748,
+        "seed": 3000050022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05249412730336189,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6684445738792419,
+        "seed": 3000050023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.10254746675491333,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.42698603868484497,
+        "seed": 3000050024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06291401386260986,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8225850462913513,
+        "seed": 3000050025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04074464365839958,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6274982690811157,
+        "seed": 3000050026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06686030328273773,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6876925826072693,
+        "seed": 3000050027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07191751897335052,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7693237066268921,
+        "seed": 3000050028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07689870893955231,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.262008935213089,
+        "seed": 3000050029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05510979890823364,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.3405582010746002,
+        "seed": 3000050030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06336794793605804,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.09935875236988068,
+        "seed": 3000050031
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05412159860134125,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.5372303128242493,
+        "seed": 3000060000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05546419695019722,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6422178149223328,
+        "seed": 3000060001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05112570896744728,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5697145462036133,
+        "seed": 3000060002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06168088689446449,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.04371282085776329,
+        "seed": 3000060003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.036562900990247726,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.2819734215736389,
+        "seed": 3000060004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05540904775261879,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6231823563575745,
+        "seed": 3000060005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.046782951802015305,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.10106402635574341,
+        "seed": 3000060006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04935074970126152,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.2542976438999176,
+        "seed": 3000060007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0700838565826416,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.13625971972942352,
+        "seed": 3000060008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07835548371076584,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.572115421295166,
+        "seed": 3000060009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06022730469703674,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7374064326286316,
+        "seed": 3000060010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0703069195151329,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.47203201055526733,
+        "seed": 3000060011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07164027541875839,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.39833369851112366,
+        "seed": 3000060012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07667543739080429,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7001000642776489,
+        "seed": 3000060013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05793674662709236,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.1510954052209854,
+        "seed": 3000060014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03221694007515907,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.704098641872406,
+        "seed": 3000060015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04748949781060219,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.1530420333147049,
+        "seed": 3000060016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04297478869557381,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6928136944770813,
+        "seed": 3000060017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05480283498764038,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7182087302207947,
+        "seed": 3000060018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07325724512338638,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.3372371196746826,
+        "seed": 3000060019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05843312665820122,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6636083722114563,
+        "seed": 3000060020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05632947012782097,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.7511935830116272,
+        "seed": 3000060021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03680834174156189,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.526066780090332,
+        "seed": 3000060022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.045998264104127884,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5668728351593018,
+        "seed": 3000060023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0598130077123642,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5605828166007996,
+        "seed": 3000060024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04301123693585396,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6342580318450928,
+        "seed": 3000060025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07358590513467789,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6978641152381897,
+        "seed": 3000060026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06560318917036057,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6975276470184326,
+        "seed": 3000060027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04518088325858116,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.5623498558998108,
+        "seed": 3000060028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0823012962937355,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.15235577523708344,
+        "seed": 3000060029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05870944634079933,
+        "joint_success": true,
+        "kind": "random_targets",
+        "min_separation": 0.6078880429267883,
+        "seed": 3000060030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06657103449106216,
+        "joint_success": false,
+        "kind": "random_targets",
+        "min_separation": 0.012563296593725681,
+        "seed": 3000060031
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.055265557020902634,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7916737198829651,
+        "seed": 3000070000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.051790688186883926,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8109597563743591,
+        "seed": 3000070001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0524565614759922,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8245692849159241,
+        "seed": 3000070002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.054826926440000534,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.027334576472640038,
+        "seed": 3000070003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.08327975124120712,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6110518574714661,
+        "seed": 3000070004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05097426474094391,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.43868446350097656,
+        "seed": 3000070005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06419552117586136,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.18103182315826416,
+        "seed": 3000070006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0721590518951416,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.16326405107975006,
+        "seed": 3000070007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08878770470619202,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.07611793279647827,
+        "seed": 3000070008
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08347155898809433,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.38668787479400635,
+        "seed": 3000070009
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05953417718410492,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.28000861406326294,
+        "seed": 3000070010
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07612191885709763,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7018532752990723,
+        "seed": 3000070011
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06082885339856148,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.5790610909461975,
+        "seed": 3000070012
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05913590267300606,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.31566837430000305,
+        "seed": 3000070013
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05492619052529335,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6912958025932312,
+        "seed": 3000070014
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0860389769077301,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.013900219462811947,
+        "seed": 3000070015
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07561269402503967,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.21308264136314392,
+        "seed": 3000070016
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.054202381521463394,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7752848267555237,
+        "seed": 3000070017
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07856032997369766,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.678084135055542,
+        "seed": 3000070018
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.061359062790870667,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.1649104356765747,
+        "seed": 3000070019
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04921247437596321,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8497437834739685,
+        "seed": 3000070020
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04959765076637268,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6307553648948669,
+        "seed": 3000070021
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.049042340368032455,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.3915218412876129,
+        "seed": 3000070022
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07716197520494461,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.4131024479866028,
+        "seed": 3000070023
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06484221667051315,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.021094460040330887,
+        "seed": 3000070024
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07709557563066483,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.7772051692008972,
+        "seed": 3000070025
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07926889508962631,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.2671746015548706,
+        "seed": 3000070026
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.040547650307416916,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.08437012135982513,
+        "seed": 3000070027
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08260799944400787,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.03880752623081207,
+        "seed": 3000070028
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.08628927916288376,
+        "joint_success": false,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.2756052315235138,
+        "seed": 3000070029
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06253470480442047,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.8021382689476013,
+        "seed": 3000070030
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06525564938783646,
+        "joint_success": true,
+        "kind": "mixed_clutter_targets",
+        "min_separation": 0.6501761674880981,
+        "seed": 3000070031
+      }
+    ],
+    "groups": {
+      "10_mixed_clutter_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.53125,
+          "successes": 17,
+          "wilson_95": [
+            0.3644923793257382,
+            0.6913087009831766
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.06024249113397673,
+        "joint_success": {
+          "rate": 0.53125,
+          "successes": 17,
+          "wilson_95": [
+            0.3644923793257382,
+            0.6913087009831766
+          ]
+        },
+        "min_separation": 0.021306412294507027
+      },
+      "10_random_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.625,
+          "successes": 20,
+          "wilson_95": [
+            0.45254100589525126,
+            0.7706633153404079
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.05578655027784407,
+        "joint_success": {
+          "rate": 0.625,
+          "successes": 20,
+          "wilson_95": [
+            0.45254100589525126,
+            0.7706633153404079
+          ]
+        },
+        "min_separation": 0.02422325499355793
+      },
+      "12_mixed_clutter_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.4375,
+          "successes": 14,
+          "wilson_95": [
+            0.2816508596944317,
+            0.6067469796877387
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.06584326515439898,
+        "joint_success": {
+          "rate": 0.4375,
+          "successes": 14,
+          "wilson_95": [
+            0.2816508596944317,
+            0.6067469796877387
+          ]
+        },
+        "min_separation": 0.013900219462811947
+      },
+      "12_random_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.5625,
+          "successes": 18,
+          "wilson_95": [
+            0.3932530203122613,
+            0.7183491403055682
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.057462830445729196,
+        "joint_success": {
+          "rate": 0.5625,
+          "successes": 18,
+          "wilson_95": [
+            0.3932530203122613,
+            0.7183491403055682
+          ]
+        },
+        "min_separation": 0.012563296593725681
+      },
+      "6_mixed_clutter_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.90625,
+          "successes": 29,
+          "wilson_95": [
+            0.7578150066422116,
+            0.9675990373736805
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.04684172125416808,
+        "joint_success": {
+          "rate": 0.90625,
+          "successes": 29,
+          "wilson_95": [
+            0.7578150066422116,
+            0.9675990373736805
+          ]
+        },
+        "min_separation": 0.1383725106716156
+      },
+      "6_random_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.875,
+          "successes": 28,
+          "wilson_95": [
+            0.7193135021517204,
+            0.950299461555257
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.03900334246282,
+        "joint_success": {
+          "rate": 0.875,
+          "successes": 28,
+          "wilson_95": [
+            0.7193135021517204,
+            0.950299461555257
+          ]
+        },
+        "min_separation": 0.32589080929756165
+      },
+      "8_mixed_clutter_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.75,
+          "successes": 24,
+          "wilson_95": [
+            0.5789310822975338,
+            0.8674775601737845
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.054377292981371284,
+        "joint_success": {
+          "rate": 0.75,
+          "successes": 24,
+          "wilson_95": [
+            0.5789310822975338,
+            0.8674775601737845
+          ]
+        },
+        "min_separation": 0.08143675327301025
+      },
+      "8_random_targets": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 32,
+          "wilson_95": [
+            0.8928172849426366,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.875,
+          "successes": 28,
+          "wilson_95": [
+            0.7193135021517204,
+            0.950299461555257
+          ]
+        },
+        "count": 32,
+        "final_mean_error": 0.04644684784580022,
+        "joint_success": {
+          "rate": 0.875,
+          "successes": 28,
+          "wilson_95": [
+            0.7193135021517204,
+            0.950299461555257
+          ]
+        },
+        "min_separation": 0.3614799678325653
+      }
+    },
+    "summary": {
+      "agent_success_rate": 1,
+      "all_targets_reached": {
+        "rate": 1,
+        "successes": 256,
+        "wilson_95": [
+          0.9852156082782743,
+          1
+        ]
+      },
+      "collision_free": {
+        "rate": 0.6953125,
+        "successes": 178,
+        "wilson_95": [
+          0.6363851497434322,
+          0.7484646972402688
+        ]
+      },
+      "count": 256,
+      "final_mean_error": 0.05325054269451357,
+      "joint_success": {
+        "rate": 0.6953125,
+        "successes": 178,
+        "wilson_95": [
+          0.6363851497434322,
+          0.7484646972402688
+        ]
+      },
+      "min_separation": 0.012563296593725681
+    }
+  },
+  "structured_validation": {
+    "cases": [
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05486766993999481,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.746195375919342,
+        "seed": 3100000000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06048571318387985,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.7927910685539246,
+        "seed": 3100000001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05444960668683052,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.6161371469497681,
+        "seed": 3100000002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.061592862010002136,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8999999761581421,
+        "seed": 3100000003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07654707133769989,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.824245274066925,
+        "seed": 3100000004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.059736497700214386,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.4721958041191101,
+        "seed": 3100000005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06146453320980072,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8987590670585632,
+        "seed": 3100000006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.08022251725196838,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8057104349136353,
+        "seed": 3100000007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04822560399770737,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 0.8013060688972473,
+        "seed": 3100000100
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.013619454577565193,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.4051379859447479,
+        "seed": 3100000101
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03335147351026535,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 1.0291590690612793,
+        "seed": 3100000102
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013340392149984837,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 0.7160424590110779,
+        "seed": 3100000103
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07248221337795258,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 0.6815747618675232,
+        "seed": 3100000104
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013872357085347176,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 0.7801216244697571,
+        "seed": 3100000105
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.013509867712855339,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.32870978116989136,
+        "seed": 3100000106
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0378492996096611,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.24945244193077087,
+        "seed": 3100000107
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.015068568289279938,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.9509369134902954,
+        "seed": 3100000200
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013511976227164268,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.9359875321388245,
+        "seed": 3100000201
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013356702402234077,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 1.001515507698059,
+        "seed": 3100000202
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013794440776109695,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.9984920024871826,
+        "seed": 3100000203
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013083459809422493,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.8865010738372803,
+        "seed": 3100000204
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012547786347568035,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 1.0194557905197144,
+        "seed": 3100000205
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01346434373408556,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.9955548048019409,
+        "seed": 3100000206
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.016136497259140015,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.926062285900116,
+        "seed": 3100000207
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.011209288612008095,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7403607964515686,
+        "seed": 3100000300
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012064516544342041,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 1.0278871059417725,
+        "seed": 3100000301
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01420112419873476,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.8684042692184448,
+        "seed": 3100000302
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.014907312579452991,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.9970157742500305,
+        "seed": 3100000303
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01231987215578556,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 1.0057926177978516,
+        "seed": 3100000304
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012933461926877499,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 1.0363644361495972,
+        "seed": 3100000305
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01269445102661848,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 1.031138300895691,
+        "seed": 3100000306
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 4,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012884100899100304,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 1.0192490816116333,
+        "seed": 3100000307
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06314743310213089,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8610917925834656,
+        "seed": 3100010000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06256294250488281,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8440849781036377,
+        "seed": 3100010001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06347877532243729,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8233890533447266,
+        "seed": 3100010002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07207920402288437,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8325169086456299,
+        "seed": 3100010003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06251292675733566,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.7644029855728149,
+        "seed": 3100010004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07684875279664993,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.7464945316314697,
+        "seed": 3100010005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05285090208053589,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8756936192512512,
+        "seed": 3100010006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06964075565338135,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.8396433591842651,
+        "seed": 3100010007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03648475930094719,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.10855219513177872,
+        "seed": 3100010100
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03795624524354935,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.3558393120765686,
+        "seed": 3100010101
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012888293713331223,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 0.6131619215011597,
+        "seed": 3100010102
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.012956210412085056,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.5249204635620117,
+        "seed": 3100010103
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.02703741192817688,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.30473196506500244,
+        "seed": 3100010104
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04216723144054413,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.43584179878234863,
+        "seed": 3100010105
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.014703326858580112,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.389213502407074,
+        "seed": 3100010106
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.014796010218560696,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.4761942923069,
+        "seed": 3100010107
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.014442943967878819,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.7251666784286499,
+        "seed": 3100010200
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013886702246963978,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.7600921392440796,
+        "seed": 3100010201
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01365427952259779,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.680223822593689,
+        "seed": 3100010202
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.014306188561022282,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.7993916273117065,
+        "seed": 3100010203
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.014104428701102734,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.7265286445617676,
+        "seed": 3100010204
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013340006582438946,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.7284078598022461,
+        "seed": 3100010205
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012267096899449825,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.7830764651298523,
+        "seed": 3100010206
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013543565757572651,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.7256035804748535,
+        "seed": 3100010207
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012040849775075912,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.79032963514328,
+        "seed": 3100010300
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013535472564399242,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7094376087188721,
+        "seed": 3100010301
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01457949262112379,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7862082719802856,
+        "seed": 3100010302
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01407718937844038,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7403420805931091,
+        "seed": 3100010303
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0147704454138875,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7027760148048401,
+        "seed": 3100010304
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.011645053513348103,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7537935376167297,
+        "seed": 3100010305
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0154092563316226,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7055487036705017,
+        "seed": 3100010306
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 6,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.011993110179901123,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.7183992266654968,
+        "seed": 3100010307
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0461340993642807,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.6129061579704285,
+        "seed": 3100020000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04919518530368805,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.5859611630439758,
+        "seed": 3100020001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05027201026678085,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.589629590511322,
+        "seed": 3100020002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06315828859806061,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.6409564018249512,
+        "seed": 3100020003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05158790573477745,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.6210551261901855,
+        "seed": 3100020004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06033025681972504,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.5398517847061157,
+        "seed": 3100020005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.07292691618204117,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.6182593703269958,
+        "seed": 3100020006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04869234561920166,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.6089857220649719,
+        "seed": 3100020007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06192166358232498,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.3953177034854889,
+        "seed": 3100020100
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05295319855213165,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.37117254734039307,
+        "seed": 3100020101
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03338707983493805,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 0.6347337961196899,
+        "seed": 3100020102
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04406049847602844,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.2772641181945801,
+        "seed": 3100020103
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.030810166150331497,
+        "joint_success": true,
+        "kind": "wide_paired",
+        "min_separation": 0.61029052734375,
+        "seed": 3100020104
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.016359737142920494,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.3041200339794159,
+        "seed": 3100020105
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04073648527264595,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.09196017682552338,
+        "seed": 3100020106
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.014359923079609871,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.45593586564064026,
+        "seed": 3100020107
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.033976130187511444,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.6647436618804932,
+        "seed": 3100020200
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.014141838997602463,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.6401011943817139,
+        "seed": 3100020201
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.029456280171871185,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.5596283674240112,
+        "seed": 3100020202
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.029809247702360153,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.6197903752326965,
+        "seed": 3100020203
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.027973722666502,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.5709952712059021,
+        "seed": 3100020204
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.023189011961221695,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.6354425549507141,
+        "seed": 3100020205
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03202073276042938,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.6370778679847717,
+        "seed": 3100020206
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013656350784003735,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.592443585395813,
+        "seed": 3100020207
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.012450133450329304,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.566246509552002,
+        "seed": 3100020300
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.01171982940286398,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.6498484015464783,
+        "seed": 3100020301
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.01288185827434063,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.5459108352661133,
+        "seed": 3100020302
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.02554682455956936,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.530168890953064,
+        "seed": 3100020303
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.044742051512002945,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.5757344365119934,
+        "seed": 3100020304
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.028092918917536736,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.6358291506767273,
+        "seed": 3100020305
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.013862421736121178,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.540185272693634,
+        "seed": 3100020306
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 8,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.013306750915944576,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.5742366909980774,
+        "seed": 3100020307
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.05165470391511917,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.5528854131698608,
+        "seed": 3100030000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04277954623103142,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.6009588241577148,
+        "seed": 3100030001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03913260996341705,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.5919196605682373,
+        "seed": 3100030002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0634130984544754,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.5935918688774109,
+        "seed": 3100030003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03967449069023132,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.556736946105957,
+        "seed": 3100030004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04027325287461281,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.5827300548553467,
+        "seed": 3100030005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04288700968027115,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.5880879759788513,
+        "seed": 3100030006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.045297615230083466,
+        "joint_success": true,
+        "kind": "paired",
+        "min_separation": 0.5882158875465393,
+        "seed": 3100030007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.02454223856329918,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.042298052459955215,
+        "seed": 3100030100
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03381936997175217,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.42870762944221497,
+        "seed": 3100030101
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0374564602971077,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.32745108008384705,
+        "seed": 3100030102
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.034929849207401276,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.43764379620552063,
+        "seed": 3100030103
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05288544297218323,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.1707245260477066,
+        "seed": 3100030104
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03704728186130524,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.5225697159767151,
+        "seed": 3100030105
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.048602379858493805,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.0892903283238411,
+        "seed": 3100030106
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04571466147899628,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.38224267959594727,
+        "seed": 3100030107
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.024189433082938194,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.4908354878425598,
+        "seed": 3100030200
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03210709989070892,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.5859214663505554,
+        "seed": 3100030201
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.03913044184446335,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.5615038275718689,
+        "seed": 3100030202
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.037396807223558426,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.6080752015113831,
+        "seed": 3100030203
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0243462435901165,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.4425885081291199,
+        "seed": 3100030204
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.02476523444056511,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.536171019077301,
+        "seed": 3100030205
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.0479443222284317,
+        "joint_success": true,
+        "kind": "ring",
+        "min_separation": 0.585625171661377,
+        "seed": 3100030206
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.042761851102113724,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.4432058334350586,
+        "seed": 3100030207
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03310621902346611,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.41409581899642944,
+        "seed": 3100030300
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.023149577900767326,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.4955958425998688,
+        "seed": 3100030301
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.026755576953291893,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.4052439033985138,
+        "seed": 3100030302
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.054277289658784866,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.47249552607536316,
+        "seed": 3100030303
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0381101593375206,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.5490180850028992,
+        "seed": 3100030304
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.016819771379232407,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.43294379115104675,
+        "seed": 3100030305
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.04081828147172928,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.5682811737060547,
+        "seed": 3100030306
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 10,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.034634657204151154,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.5682399868965149,
+        "seed": 3100030307
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.039420079439878464,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.4397258758544922,
+        "seed": 3100040000
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0525398850440979,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.45288804173469543,
+        "seed": 3100040001
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05307980999350548,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.49644821882247925,
+        "seed": 3100040002
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0428941436111927,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.4669456481933594,
+        "seed": 3100040003
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06383039802312851,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.4557621479034424,
+        "seed": 3100040004
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04216684401035309,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.43054699897766113,
+        "seed": 3100040005
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.050266966223716736,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.40071168541908264,
+        "seed": 3100040006
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04298166558146477,
+        "joint_success": false,
+        "kind": "paired",
+        "min_separation": 0.44985008239746094,
+        "seed": 3100040007
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.050183217972517014,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.24958933889865875,
+        "seed": 3100040100
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.0438259057700634,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.10525768250226974,
+        "seed": 3100040101
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03488476201891899,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.2828156352043152,
+        "seed": 3100040102
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.02022595889866352,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.3061386048793793,
+        "seed": 3100040103
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.024509677663445473,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.23274211585521698,
+        "seed": 3100040104
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03370356559753418,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.14843527972698212,
+        "seed": 3100040105
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04478384554386139,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.05465184897184372,
+        "seed": 3100040106
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05345267057418823,
+        "joint_success": false,
+        "kind": "wide_paired",
+        "min_separation": 0.10781297087669373,
+        "seed": 3100040107
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.053320322185754776,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.4824095368385315,
+        "seed": 3100040200
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04007001593708992,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.4013918936252594,
+        "seed": 3100040201
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07124333083629608,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.4267752468585968,
+        "seed": 3100040202
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06922231614589691,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.4201371669769287,
+        "seed": 3100040203
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.03914215788245201,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.5019479393959045,
+        "seed": 3100040204
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05615735054016113,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.5231559872627258,
+        "seed": 3100040205
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.07297675311565399,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.5254232287406921,
+        "seed": 3100040206
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.04776734486222267,
+        "joint_success": false,
+        "kind": "ring",
+        "min_separation": 0.47688478231430054,
+        "seed": 3100040207
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.06154622137546539,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.44504374265670776,
+        "seed": 3100040300
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.051449310034513474,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.5676987171173096,
+        "seed": 3100040301
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.044390443712472916,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.4190068542957306,
+        "seed": 3100040302
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.053571734577417374,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.3356953561306,
+        "seed": 3100040303
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.022757411003112793,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.48664453625679016,
+        "seed": 3100040304
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": true,
+        "final_mean_error": 0.06262516230344772,
+        "joint_success": true,
+        "kind": "crossing",
+        "min_separation": 0.56789231300354,
+        "seed": 3100040305
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.047273341566324234,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.5214486718177795,
+        "seed": 3100040306
+      },
+      {
+        "agent_success_rate": 1,
+        "agents": 12,
+        "all_targets_reached": true,
+        "collision_free": false,
+        "final_mean_error": 0.05989299342036247,
+        "joint_success": false,
+        "kind": "crossing",
+        "min_separation": 0.5018396377563477,
+        "seed": 3100040307
+      }
+    ],
+    "groups": {
+      "10_crossing": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.25,
+          "successes": 2,
+          "wilson_95": [
+            0.07147768885802763,
+            0.5907301208974108
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.033458941616117954,
+        "joint_success": {
+          "rate": 0.25,
+          "successes": 2,
+          "wilson_95": [
+            0.07147768885802763,
+            0.5907301208974108
+          ]
+        },
+        "min_separation": 0.4052439033985138
+      },
+      "10_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.045639040879905224,
+        "joint_success": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "min_separation": 0.5528854131698608
+      },
+      "10_ring": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.5,
+          "successes": 4,
+          "wilson_95": [
+            0.21521252682444186,
+            0.7847874731755582
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.03408017917536199,
+        "joint_success": {
+          "rate": 0.5,
+          "successes": 4,
+          "wilson_95": [
+            0.21521252682444186,
+            0.7847874731755582
+          ]
+        },
+        "min_separation": 0.4425885081291199
+      },
+      "10_wide_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.03937471052631736,
+        "joint_success": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "min_separation": 0.042298052459955215
+      },
+      "12_crossing": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.25,
+          "successes": 2,
+          "wilson_95": [
+            0.07147768885802763,
+            0.5907301208974108
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.05043832724913955,
+        "joint_success": {
+          "rate": 0.25,
+          "successes": 2,
+          "wilson_95": [
+            0.07147768885802763,
+            0.5907301208974108
+          ]
+        },
+        "min_separation": 0.3356953561306
+      },
+      "12_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.048397473990917206,
+        "joint_success": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "min_separation": 0.40071168541908264
+      },
+      "12_ring": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.05623744893819094,
+        "joint_success": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "min_separation": 0.4013918936252594
+      },
+      "12_wide_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.038196200504899025,
+        "joint_success": {
+          "rate": 0,
+          "successes": 0,
+          "wilson_95": [
+            0,
+            0.3244156195108769
+          ]
+        },
+        "min_separation": 0.05465184897184372
+      },
+      "4_crossing": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.012901765992864966,
+        "joint_success": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "min_separation": 0.7403607964515686
+      },
+      "4_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.875,
+          "successes": 7,
+          "wilson_95": [
+            0.5291051942301386,
+            0.9775830911367038
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.06367080891504884,
+        "joint_success": {
+          "rate": 0.875,
+          "successes": 7,
+          "wilson_95": [
+            0.5291051942301386,
+            0.9775830911367038
+          ]
+        },
+        "min_separation": 0.4721958041191101
+      },
+      "4_ring": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.01387047185562551,
+        "joint_success": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "min_separation": 0.8865010738372803
+      },
+      "4_wide_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.625,
+          "successes": 5,
+          "wilson_95": [
+            0.30573785458380187,
+            0.863158240538479
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.030781332752667367,
+        "joint_success": {
+          "rate": 0.625,
+          "successes": 5,
+          "wilson_95": [
+            0.30573785458380187,
+            0.863158240538479
+          ]
+        },
+        "min_separation": 0.24945244193077087
+      },
+      "6_crossing": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.013506358722224832,
+        "joint_success": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "min_separation": 0.7027760148048401
+      },
+      "6_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.06539021153002977,
+        "joint_success": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "min_separation": 0.7464945316314697
+      },
+      "6_ring": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.013693151529878378,
+        "joint_success": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "min_separation": 0.680223822593689
+      },
+      "6_wide_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.125,
+          "successes": 1,
+          "wilson_95": [
+            0.02241690886329617,
+            0.4708948057698615
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.02487368613947183,
+        "joint_success": {
+          "rate": 0.125,
+          "successes": 1,
+          "wilson_95": [
+            0.02241690886329617,
+            0.4708948057698615
+          ]
+        },
+        "min_separation": 0.10855219513177872
+      },
+      "8_crossing": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.625,
+          "successes": 5,
+          "wilson_95": [
+            0.30573785458380187,
+            0.863158240538479
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.020325348596088588,
+        "joint_success": {
+          "rate": 0.625,
+          "successes": 5,
+          "wilson_95": [
+            0.30573785458380187,
+            0.863158240538479
+          ]
+        },
+        "min_separation": 0.530168890953064
+      },
+      "8_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.875,
+          "successes": 7,
+          "wilson_95": [
+            0.5291051942301386,
+            0.9775830911367038
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.05528712598606944,
+        "joint_success": {
+          "rate": 0.875,
+          "successes": 7,
+          "wilson_95": [
+            0.5291051942301386,
+            0.9775830911367038
+          ]
+        },
+        "min_separation": 0.5398517847061157
+      },
+      "8_ring": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.025527914403937757,
+        "joint_success": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "min_separation": 0.5596283674240112
+      },
+      "8_wide_paired": {
+        "agent_success_rate": 1,
+        "all_targets_reached": {
+          "rate": 1,
+          "successes": 8,
+          "wilson_95": [
+            0.6755843804891231,
+            1
+          ]
+        },
+        "collision_free": {
+          "rate": 0.25,
+          "successes": 2,
+          "wilson_95": [
+            0.07147768885802763,
+            0.5907301208974108
+          ]
+        },
+        "count": 8,
+        "final_mean_error": 0.03682359401136637,
+        "joint_success": {
+          "rate": 0.25,
+          "successes": 2,
+          "wilson_95": [
+            0.07147768885802763,
+            0.5907301208974108
+          ]
+        },
+        "min_separation": 0.09196017682552338
+      }
+    },
+    "summary": {
+      "agent_success_rate": 1,
+      "all_targets_reached": {
+        "rate": 1,
+        "successes": 160,
+        "wilson_95": [
+          0.9765529633499672,
+          1
+        ]
+      },
+      "collision_free": {
+        "rate": 0.56875,
+        "successes": 91,
+        "wilson_95": [
+          0.4912859643792512,
+          0.6429900680813693
+        ]
+      },
+      "count": 160,
+      "final_mean_error": 0.036123704665806146,
+      "joint_success": {
+        "rate": 0.56875,
+        "successes": 91,
+        "wilson_95": [
+          0.4912859643792512,
+          0.6429900680813693
+        ]
+      },
+      "min_separation": 0.042298052459955215
+    }
+  }
+}

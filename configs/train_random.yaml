@@ -1,0 +1,57 @@
+run:
+  output_dir: runs/random_from_scratch
+  seed: 17
+  deterministic: true
+  device: cpu
+  dtype: float32
+  threads: 1
+model:
+  hidden_dim: 48
+  lru_dim: 32
+  communication_radius: 1.6
+  kp: 1.0
+  residual_scale: 5.0
+  r_min: 0.97
+  r_max: 0.995
+  aggregation: sqrt_degree_sum
+  no_neighbor_gate: true
+  magnitude_arch: gnn_lru
+environment:
+  dt: 0.05
+  damping: 1.0
+training:
+  curriculum: random_from_scratch
+  updates: 2500
+  progress_total: 2500
+  batch_size: 16
+  horizon: 180
+  validation_horizon: 260
+  validation_suite: random
+  validation_count: 8
+  hard_bank_size: 256
+  inherit_hard_cases: false
+  checkpoint_interval: 100
+  validation_interval: 100
+  log_interval: 25
+  reset_optimizer: true
+  anchor_weight: 0.0
+optimizer:
+  name: AdamW
+  learning_rate: 0.0005
+  betas: [0.9, 0.999]
+  eps: 0.00000001
+  weight_decay: 0.00001
+  warmup_updates: 30
+  cosine_floor: 0.20
+  max_grad_norm: 5.0
+loss:
+  safety_distance: 0.55
+  teacher_weight: 2.5
+  teacher_decay_progress: 0.95
+  cvar_fraction: 0.35
+  cvar_weight: 0.70
+  collision_weight: 55.0
+  worst_safety_weight: 90.0
+  overshoot_mean_weight: 4.0
+  overshoot_max_weight: 7.5
+  worst_agent_weight: 0.80
